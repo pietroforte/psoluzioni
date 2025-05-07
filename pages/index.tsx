@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <div className="flex gap-6">
             <a 
-              href="https://psoluzioni-emarsys-agentforce.vercel.app/"
+              href="https://psoluzioni-pcx.vercel.app/"
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition hover:scale-105"
@@ -57,7 +57,7 @@ export default function Home() {
                 Witness how SAP Emarsys loyalty journeys and Salesforce AgentForce sentiment analysis combine to elevate the customer experience.
               </p>
               <a 
-                href="https://psoluzioni-emarsys-agentforce.vercel.app/"
+                href="https://psoluzioni-pcx.vercel.app/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition hover:scale-105"
@@ -69,7 +69,7 @@ export default function Home() {
             {/* Image side */}
             <div className="flex justify-center">
               <a 
-                href="https://psoluzioni-emarsys-agentforce.vercel.app/"
+                href="https://psoluzioni-pcx.vercel.app/"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
