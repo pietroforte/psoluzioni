@@ -3,37 +3,11 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <>
-      
-<Head>
-  <title>Ricardo Pietroforte | Digital CX & SAP Leader | Deerfield, Illinois, USA</title>
-  <meta name="description" content="Ricardo Pietroforte is a U.S.-based SAP and Customer Experience leader, driving AI-powered loyalty and service transformation from Deerfield, IL. Explore Psoluzioni's CX portfolio, demos, and innovations." />
-  <meta name="keywords" content="Ricardo Pietroforte, SAP Emarsys, SAP CX, SAP BTP, AI Customer Experience, Deerfield Illinois, U.S.-based SAP Leader, Psoluzioni, Customer Loyalty, Salesforce AgentForce, Digital Strategy" />
-  <meta name="author" content="Ricardo Pietroforte" />
-  <meta name="robots" content="index, follow" />
-  <link rel="icon" href="/favicon.ico" />
-
-  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Ricardo Pietroforte",
-    "jobTitle": "Digital CX & SAP Leader",
-    "url": "https://psoluzioni.com",
-    "image": "https://psoluzioni.com/images/ricardo-pietroforte.jpg",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Deerfield",
-      "addressRegion": "IL",
-      "addressCountry": "US"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/in/ricardopietroforte",
-      "https://github.com/pietroforte",
-      "https://psoluzioni.com"
-    ],
-    "description": "Ricardo Pietroforte is a U.S.-based SAP and digital experience strategist, leading AI and CX innovations from Deerfield, Illinois."
-  }) }} />
-</Head>
-
+      <Head>
+        <title>Psoluzioni | AI-Driven Customer Experience Solutions</title>
+        <meta name="description" content="Psoluzioni empowers businesses with AI-driven SAP, Salesforce, and loyalty experiences." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       <main className="flex flex-col min-h-screen bg-gradient-to-b from-white via-gray-100 to-white text-gray-900 font-sans">
         
