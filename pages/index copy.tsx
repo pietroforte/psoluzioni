@@ -1,93 +1,142 @@
-import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-logo-cream font-logo-text flex flex-col items-center justify-center space-y-6 p-8">
+    <>
       
-      {/* Logo */}
-      <img
-        src="/logo-psoluzioni.png"
-        alt="Psoluzioni logo"
-        className="w-40 h-auto drop-shadow-md rounded"
-      />
-      {/* Tagline text */}
-      <div className="text-logo-brown text-2xl">
-        <h1 className="text-3xl text-logo-brown font-bold mt-4 text-center">
-          Empowering AI and Machine Learning
-        </h1>
-      {/* Divider */}
-      <div className="border-b-2 border-logo-olive w-full max-w-md text-center pt-4">
-      </div>
-  <p className="text-logo-brown text-lg text-center max-w-xl mt-2">
-          At Psoluzioni, we partner with strategic teams worldwide to deliver cost-effective solutions in reasonable terms.
-  </p>
+<Head>
+  <title>Ricardo Pietroforte | Digital CX & SAP Leader | Deerfield, Illinois, USA</title>
+  <meta name="description" content="Ricardo Pietroforte is a U.S.-based SAP and Customer Experience leader, driving AI-powered loyalty and service transformation from Deerfield, IL. Explore Psoluzioni's CX portfolio, demos, and innovations." />
+  <meta name="keywords" content="Ricardo Pietroforte, SAP Emarsys, SAP CX, SAP BTP, AI Customer Experience, Deerfield Illinois, U.S.-based SAP Leader, Psoluzioni, Customer Loyalty, Salesforce AgentForce, Digital Strategy" />
+  <meta name="author" content="Ricardo Pietroforte" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="/favicon.ico" />
 
-      </div>
+  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ricardo Pietroforte",
+    "jobTitle": "Digital CX & SAP Leader",
+    "url": "https://psoluzioni.com",
+    "image": "https://psoluzioni.com/images/ricardo-pietroforte.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Deerfield",
+      "addressRegion": "IL",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/ricardopietroforte",
+      "https://github.com/pietroforte",
+      "https://psoluzioni.com"
+    ],
+    "description": "Ricardo Pietroforte is a U.S.-based SAP and digital experience strategist, leading AI and CX innovations from Deerfield, Illinois."
+  }) }} />
+</Head>
 
-      
-      <div className="min-h-screen bg-logo-cream font-logo-text text-logo-brown">
-  {/* Hero */}
-  <section className="flex flex-col items-center justify-center py-16 px-4">
-    <Link href="/contact">
-        <button className="bg-logo-orange hover:bg-logo-brown text-logo-cream px-4 py-2 rounded">
-        Learn More
-      </button>
-    </Link>
-  </section>
 
-  {/* About */}
-  <section className="bg-white py-16 px-4">
-    <div className="max-w-3xl mx-auto text-center">
-      <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
-      <p>
-      We don't need to spend too much time to help you know what story your data wants to tell.
-      </p>
-    </div>
-  </section>
+      <main className="flex flex-col min-h-screen bg-gradient-to-b from-white via-gray-100 to-white text-gray-900 font-sans">
+        
+        {/* Hero Section */}
+        <section className="flex flex-col justify-center items-center text-center py-24 px-6 bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 text-white">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 animate-fadeIn">
+            AI-Driven Customer Experiences. Reimagined.
+          </h1>
+          <p className="max-w-2xl text-lg md:text-2xl mb-10 text-gray-300 animate-fadeIn delay-150">
+            Psoluzioni connects SAP, Salesforce, and Custom AI to transform loyalty and service journeys.
+          </p>
+          <div className="flex gap-6">
+            <a 
+              href="https://psoluzioni-pcx.vercel.app/"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition hover:scale-105"
+            >
+              🚀 Launch Simulator
+            </a>
+            <a 
+              href="/contact"
+              className="bg-transparent border border-white hover:bg-white hover:text-blue-800 text-white font-bold py-3 px-6 rounded-lg transition hover:scale-105"
+            >
+              📅 Schedule a Call
+            </a>
+          </div>
+        </section>
 
-{/* 👉 INSERT THE DEMO SECTION RIGHT HERE 👈 */}
-{/* Demo Simulator Section with Thumbnail */}
-<section className="bg-logo-cream py-16 px-4">
-  <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-    {/* Text side */}
-    <div className="text-center md:text-left">
-      <h2 className="text-2xl font-bold mb-4">Explore Our Unified CX Simulator</h2>
-      <p className="text-logo-brown mb-6">
-        See how SAP Emarsys and Salesforce AgentForce connect loyalty, service, and marketing experiences in real-time.
-      </p>
-      <a 
-        href="https://psoluzioni-emarsys-agentforce.vercel.app/" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="inline-block bg-logo-orange hover:bg-logo-brown text-logo-cream px-6 py-3 rounded font-bold transition"
-      >
-        🚀 Launch Demo Simulator
-      </a>
-    </div>
+        {/* About Section */}
+        <section className="bg-white py-20 px-8 text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-blue-800">About Psoluzioni</h2>
+            <p className="text-lg text-gray-700">
+              We help companies bridge the gap between insight and action by integrating SAP Customer Experience, Salesforce Service Cloud, and AI-driven loyalty personalization — all aligned to real business outcomes.
+            </p>
+          </div>
+        </section>
 
-    {/* Image side */}
-    <div className="flex justify-center">
-      <a 
-        href="https://psoluzioni-emarsys-agentforce.vercel.app/" 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        <img 
-          src="/demo-thumbnail.png" 
-          alt="CX Simulator preview" 
-          className="rounded-lg shadow-lg hover:opacity-90 transition w-full max-w-md"
-        />
-      </a>
-    </div>
-  </div>
-</section>
+        {/* Demo Simulator Section */}
+        <section className="bg-gray-50 py-20 px-8">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            {/* Text side */}
+            <div className="text-center md:text-left">
+              <h2 className="text-3xl font-bold mb-6 text-blue-800">Explore Our Unified CX Simulator</h2>
+              <p className="text-gray-700 mb-6">
+                Witness how SAP Emarsys loyalty journeys and Salesforce AgentForce sentiment analysis combine to elevate the customer experience.
+              </p>
+              <a 
+                href="https://psoluzioni-pcx.vercel.app/"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition hover:scale-105"
+              >
+                🚀 Launch Demo
+              </a>
+            </div>
 
-  {/* Footer */}
-  <footer className="text-center text-sm py-4 border-t border-logo-olive">
-    © {new Date().getFullYear()} Psoluzioni. All rights reserved.
-  </footer>
-</div>
+            {/* Image side */}
+            <div className="flex justify-center">
+              <a 
+                href="https://psoluzioni-pcx.vercel.app/"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img 
+                  src="/demo-thumbnail.png"
+                  alt="CX Simulator preview"
+                  className="rounded-lg shadow-xl hover:opacity-90 transition w-full max-w-md"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
 
-    </div>
+        {/* Tech Expertise Section */}
+        <section className="bg-white py-20 px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6 text-blue-800">Technology Expertise</h2>
+            <div className="flex justify-center items-center gap-8 mt-8">
+              <img src="/sap-logo.svg" alt="SAP" className="h-12" />
+              <img src="/salesforce-logo.png" alt="Salesforce" className="h-12" />
+              <img src="/ai-icon.png" alt="AI/ML" className="h-12" />
+            </div>
+          </div>
+        </section>
+
+        {/* Footer */}
+        <footer className="mt-auto bg-gray-900 text-gray-300 py-6 text-center text-sm">
+          <p>© {new Date().getFullYear()} Psoluzioni. All rights reserved.</p>
+          <p className="mt-2">
+            <a 
+              href="https://www.linkedin.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-white"
+            >
+              LinkedIn
+            </a>
+          </p>
+        </footer>
+
+      </main>
+    </>
   );
 }
